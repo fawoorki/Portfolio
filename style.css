@@ -1,4 +1,5 @@
 html, body{
+    background-color: #E7ECEF;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -21,15 +22,26 @@ header{
 
 main{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.CategoryTitle{
+    background-color: #6096BA;
+    padding: 15px;
+}
+
+.row{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
 #AboutMe{
-    background-color: aqua;
-    width: 95%;
+    background-color: #A3CEF1;
+    width: 100%;
     float: left;
-    padding: 15px 15px 0 15px;
-    margin-top: 30px;
 }
 
 #AboutMeContent{
@@ -39,13 +51,39 @@ main{
 
 #AboutMeInfo{
     flex: 0 1 auto;
-    padding-right: 25px;
+    padding-right: 30px;
     float: left;
 }
 
 #AboutMeInterests{
     flex: 1;
     border-left: 1px solid black;
+    padding: 0 15px;
     float: left;
-    padding-left: 20px;
+}
+
+#Projects{
+    background-color: #A3CEF1;
+    flex: 1;
+    float: left;
+}
+
+#ProjectsContent{
+    padding: 0 15px;
+}
+
+#ProjectsContent dt{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#ProjectsContent dd{
+    margin-bottom: 15px;
+}
+
+#Socials{
+    background-color: #A3CEF1;
+    flex: 0 1 auto;
+    margin-left: 50px;
+    float: left;
 }
