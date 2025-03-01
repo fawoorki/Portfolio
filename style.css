@@ -6,17 +6,46 @@ html, body{
     overflow-x: unset;
 }
 
-main{
-    width: 100%;
-    height: 100%;
+h1, h2{
+    margin: 0;
+}
+
+header{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #274C77;
+    color: #E7ECEF;
+    height: 75px;
 }
 
-#blockContainer{
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    margin: 50px;
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#AboutMe{
+    background-color: aqua;
+    width: 95%;
+    float: left;
+    padding: 15px 15px 0 15px;
+    margin-top: 30px;
+}
+
+#AboutMeContent{
+    display: flex;
+    width: 100%;
+}
+
+#AboutMeInfo{
+    flex: 0 1 auto;
+    padding-right: 25px;
+    float: left;
+}
+
+#AboutMeInterests{
+    flex: 1;
+    border-left: 1px solid black;
+    float: left;
+    padding-left: 20px;
 }
