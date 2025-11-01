@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes, Link } from 'react-router';
-import logo from './logo.jpg';
 
 import './App.css';
 import Footer from './footer'
@@ -11,7 +10,7 @@ function App() {
     <section>
         <BrowserRouter>
           <header>
-            <img id="logo" src={logo} alt="Logo"/>
+            <img id="logo" src="/img/logo.jpg" alt="Logo"/>
               <nav>
                 <Link to="/graphics" className="btn btn-secondary">
                   <section className="NavButton">
