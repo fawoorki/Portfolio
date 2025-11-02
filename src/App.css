@@ -122,7 +122,7 @@ footer{
   margin: 0;
 }
 
-.overlay{
+#overlay{
   position: fixed;
   display: none;
   top: 0; left: 0;
@@ -132,9 +132,26 @@ footer{
   align-items: center;
   z-index: 1000;
 }
-#overlay-close{
+#overlay span{
+  position: absolute;
   background-color: grey;
   width: 100px;
   height: 100px;
   border-radius: 50px;
+  float: right;
+}
+#overlay-close{
+  top: 20px;
+  right: 20px;
+}
+#overlay-next{
+  top: 50%; right: 20px; font-size: 50px;
+  transform: translateY(-50%);
+}
+#overlay-prev{
+  top: 50%; left: 20px; font-size: 50px;
+  transform: translateY(-50%);
+}
+#overlay-img{
+  height: 90%;
 }

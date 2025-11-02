@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes, Link } from 'react-router';
 
 import './App.css';
-import Footer from './footer'
 import Grafics from './graphics';
 import Projects from './projects';
 
