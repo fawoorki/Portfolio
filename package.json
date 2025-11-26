@@ -11,6 +11,7 @@
     "react-dom": "^19.2.0",
     "react-router": "^7.9.4",
     "react-scripts": "5.0.1",
+    "react-stl-file-viewer": "^0.0.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
